@@ -13,5 +13,10 @@ describe('GlobalFooter', () => {
             )
         ).toBeInTheDocument();
         expect(screen.getByText('v0.0.01')).toBeInTheDocument();
-    })
+    });
+
+    it('matches snapshot', () => {
+        const { asFragment } = render(<GlobalFooter />);
+        expect(asFragment()).toMatchSnapshot();
+    });
 });
