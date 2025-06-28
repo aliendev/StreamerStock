@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`GlobalFooter matches snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="text-white"
+  >
+    <div
+      class="flex flex-row items-center justify-between max-w-7xl mx-auto px-4 py-6"
+    >
+      <p
+        class="d-flex"
+      >
+        Copyright © 2025 - 2025 Streamer Stock. All rights reserved. 100% Human-Crafted Artisanal Code.
+      </p>
+      <p
+        class="d-flex"
+      >
+        v0.0.02
+      </p>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
