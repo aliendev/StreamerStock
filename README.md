@@ -31,4 +31,3 @@ I need a changelog.
 sky: username
 gecko: let's put the version number on the app itself
 
-
