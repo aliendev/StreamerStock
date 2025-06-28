@@ -7,7 +7,8 @@
         "dev": "next dev",
         "lint": "next lint",
         "start": "next start",
-        "test": "jest --watchAll --verbose",
+        "test": "jest",
+        "test:watch": "jest --watchAll --verbose",
         "test:coverage": "jest --coverage --watchAll --verbose",
         "test:update": "jest --updateSnapshot --watchAll=false --verbose"
     },
